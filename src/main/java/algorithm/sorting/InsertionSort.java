@@ -3,6 +3,12 @@ package algorithm.sorting;
 import java.util.ArrayList;
 
 public class InsertionSort {
+    /**
+     * Insertion sort
+     * insert an element at its right position
+     *
+     * @param arr
+     */
     static void insertionSorting(ArrayList<Integer> arr) {
         int n = arr.size();
         for (int i = 1; i < n; ++i) {

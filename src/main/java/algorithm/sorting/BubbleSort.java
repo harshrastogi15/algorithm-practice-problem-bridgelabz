@@ -3,6 +3,14 @@ package algorithm.sorting;
 import java.util.ArrayList;
 
 public class BubbleSort {
+
+    /**
+     * Bubble sort
+     * put the max element in the end of the array
+     *
+     * @param arr
+     */
+
     static void bubbleSorting(ArrayList<Integer> arr)
     {
         int n = arr.size();

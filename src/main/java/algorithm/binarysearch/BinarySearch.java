@@ -48,6 +48,15 @@ public class BinarySearch {
         }
     }
 
+
+    /**
+     * Binary Search method
+     *
+     *
+     * @param list
+     * @param s
+     * @return
+     */
     private static Integer binarySearch(ArrayList<String> list, String s) {
         Integer mid ;
         Integer l=0,r=list.size()-1;
